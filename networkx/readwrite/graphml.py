@@ -465,7 +465,7 @@ class GraphMLWriter(GraphML):
 
             self.keys[keys_key] = new_id
             key_kwargs = {
-                "id": new_id,
+                "id": name,
                 "for": scope,
                 "attr.name": name,
                 "attr.type": attr_type,
